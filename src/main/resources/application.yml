@@ -1,0 +1,10 @@
+server:
+  port : 8080
+
+spring:
+  datasource:
+    name : test
+    url : jdbc:mysql://127.0.0.1:3306/demo?serverTimezone=Asia/Shanghai
+    username : root
+    password: czy@rxy123
+    driver-class-name: com.mysql.cj.jdbc.Driver
